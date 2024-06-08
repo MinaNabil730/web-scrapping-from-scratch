@@ -40,19 +40,24 @@ git clone https://github.com/MinaNabil730/web-scrapping-from-scratch
 cd path/to/your/project/directory
 ```
 3. Ensure you have the required packages installed.
-4. Run the script:
+4. Run the Jupyter Notebook (`Amazon_Mobile_Phone_Scraper.ipynb`) to initiate the scraping process:
 
     ```bash
-    python amazon_scraper.py
+    jupyter notebook amazon_scraper.ipynb
     ```
+    if this command doesn't work, you can use:
+   ```bash
+    python -m notebook
+   ```
+    Then, navigate to and open `amazon_scraper.ipynb` in the Jupyter Notebook interface.
 
-5. The script will generate an `mobile_data.xlsx` file containing the scraped data.
+6. The script will generate an `mobile_data.xlsx` file containing the scraped data.
 
    
 ## Project Structure
 amazon_scraper/
 
-amazon_scraper.py: Main script for scraping Amazon mobile phone data
+amazon_scraper.ipynb: Main script for scraping Amazon mobile phone data
 
 requirements.txt: List of required Python packages
 
