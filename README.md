@@ -109,6 +109,11 @@ If the headers or structure of the data on Amazon's website change, you may need
 
 Please note that the script might take approximately 10 to 20 minutes to run, depending on the number of products being scraped and your internet connection speed.
 
+## Uploading Data File
+
+Initially, the `mobile_data.xlsx` file is included in the GitHub repository for convenience. However, to ensure the data remains up-to-date with the latest information from Amazon, it's recommended to periodically run the script. This will update the file with the most current product details.
+
+
 ## Limitations
 
 Due to variations in seller listings, some fields in the resulting dataset may contain NaN values or incomplete information. Efforts were made to handle these cases gracefully within the scraping script.
